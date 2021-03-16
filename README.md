@@ -14,6 +14,7 @@ If you would like, you can use a virtual environment so that you don't have to i
 all of the libraries onto your local machine. You can do that by running
 
 `python3 -m venv env`
+
 `source env/bin/activate`
 
 #### Downloading Dependencies
