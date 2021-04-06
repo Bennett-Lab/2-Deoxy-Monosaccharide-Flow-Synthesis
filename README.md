@@ -9,16 +9,7 @@ Automation of Benzylated Rhamnal using Mechwolf
 
 ### Getting Started
 
-#### Virtual Environment (Optional)
-If you would like, you can use a virtual environment so that you don't have to install
-all of the libraries onto your local machine. You can do that by running
-
-`python3 -m venv env`
-
-`source env/bin/activate`
-
-#### Downloading Dependencies
-Run `pip3 install -r requirements.txt` in order to install all the dependencies for this project
+Run `./setup` in order to install all binaries needed and python libraries
 
 ### Step 1
 
