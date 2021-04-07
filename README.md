@@ -1,4 +1,5 @@
-# flow-synthesis
+# 2-Deoxy-Monosaccharide-Flow-Synthesis
+
 Automation of Benzylated Rhamnal using Mechwolf
 
 ## Table of Contents
