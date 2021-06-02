@@ -36,15 +36,23 @@ if ! command -v brew &> /dev/null; then
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
+brew update
+
 # Installing python3
-if ! command -v python3 &> /dev/null || ! command brew search python3 &> /dev/null; then
+if ! command -v python3 || ! command brew search python3 &> /dev/null; then
     install "ERROR" $RED "Python3 is not installed on this computer" "Installing Python3" 
     brew install python3
+    brew link python3
 else 
     install "NOTE" $YELLOW "Python3 is installed"
 
     brew upgrade python3
 fi
+
+# Updating pip3 if needed
+install "Pip3" $YELLOW "Updating pip3 if needed"
+
+$(which python3) -m pip install --upgrade pip
 
 # Installing mechwolf
 install "Mechwolf" $GREEN "Installing mechwolf"
@@ -57,6 +65,18 @@ fi
 
 pip3 install -r requirements.txt
 
-echo "alias wolf='cd ~/Desktop/flow-synthesis; jupyter notebook'" >> ~/.bashrc
+case $(grep "alias wolf*" ~/.bashrc > /dev/null; echo $?) in
+  0)
+    install "Warning" $YELLOW 'Alias already found in ~/.bashrc'
+    ;;
+  1)
+    install "Alias" $GREEN "Putting an alias in ~/.bashrc for convenience"
+    echo -e "\nalias wolf='cd ~/Desktop/flow-synthesis; jupyter notebook'" >> ~/.bashrc
+    ;;
+  *)
+    install "ERROR" $RED "Issue with grep'ing for alias"
+    exit 2
+    ;;
+esac
 
 source ~/.bashrc
