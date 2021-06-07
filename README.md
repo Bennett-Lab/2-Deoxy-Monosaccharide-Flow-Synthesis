@@ -28,4 +28,6 @@ If that didn't work, try to manually download it by running these commands one a
 
 4. Download jupyter notebook by running `py pip install notebook`
 
+5. Download graphviz by running `py pip install graphviz`
+
 *In the future, we plan to make an automatic script for Windows as well*

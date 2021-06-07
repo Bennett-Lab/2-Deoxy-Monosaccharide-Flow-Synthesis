@@ -54,7 +54,7 @@ install "Pip3" $YELLOW "Updating pip3 if needed"
 
 $(which python3) -m pip install --upgrade pip
 
-# Installing mechwolf
+# Installing external dependencies
 install "Mechwolf" $GREEN "Installing mechwolf"
 
 if [ ! -f requirements.txt ]; then
