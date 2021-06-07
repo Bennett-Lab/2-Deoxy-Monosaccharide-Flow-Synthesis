@@ -5,8 +5,6 @@ Automation of Benzylated Rhamnal using Mechwolf
 ## Table of Contents
 
 1. [Getting Started](#getting-started)
-    1a. [Step 1](#step-1)
-    1b. [Step 2](#step-2)
 
 ### Getting Started
 
