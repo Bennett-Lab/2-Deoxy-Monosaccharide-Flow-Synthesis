@@ -1,0 +1,43 @@
+{
+    "mass scale": 5,
+    "solid reagents": [
+        {
+            "name": "Diacetyl Rhamnal",
+            "formula": "C10H14O5",
+            "inChi": "NDEGMKQAZZBNBB-OUBRSPPYSA-N",
+            "inChi Key": "ADSFASDFASDFASDFA-ADSFASDFAS-A",
+            "molecular weight": 214.22,
+            "equivalence": 1.0,
+            "solvent volume": 1.56
+        },
+        {
+            "name": "NaOMe",
+            "formula": "NaCH3O",
+            "inChi": "WQDUMFSSJAZKTM-UHFFFAOYSA-N",
+            "inChi Key": "ADSFASDFASDFASDFA-ADSFASDFAS-A",
+            "molecular weight": 54.05,
+            "equivalence": 5.0,
+            "solvent volume": 1.56
+        }
+    ],
+    "liquid reagents": [
+        {
+            "name": "MeOH",
+            "formula": "CH4O",
+            "inChi": "OKKJLVBELUTLKV-UHFFFAOYSA-N",
+            "inChi Key": "ADSFASDFASDFASDFA-ADSFASDFAS-A",
+            "molecular weight": 32.04,
+            "equivalence": 2.0,
+            "density": 0.791
+        },
+        {
+            "name": "Et3N",
+            "formula": "C6H15N",
+            "inChi": "ZMANZCXQSJIPKH-UHFFFAOYSA-N",
+            "inChi Key": "ADSFASDFASDFASDFA-ADSFASDFAS-A",
+            "molecular weight": 101.19,
+            "equivalence": 3.7,
+            "density": 0.726
+        }
+    ]
+}
