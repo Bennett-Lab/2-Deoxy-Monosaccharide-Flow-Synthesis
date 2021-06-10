@@ -9,6 +9,7 @@ This is a basic script that downloads/updates the following items:
 - python3
 - mechwolf (python library)
 - jupyter (python library)
+- graphviz
 
 As well as adds in an alias into ones .bashrc file that allows them
 to open up the github repo automatically
@@ -64,6 +65,8 @@ if [ ! -f requirements.txt ]; then
 fi
 
 pip3 install -r requirements.txt
+
+brew install graphviz
 
 case $(grep "alias wolf*" ~/.bashrc > /dev/null; echo $?) in
   0)
