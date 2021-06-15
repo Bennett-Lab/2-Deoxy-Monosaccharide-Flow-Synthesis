@@ -10,7 +10,8 @@
             "inChi Key": "NDEGMKQAZZBNBB-OUBRSPPYSA-N",
             "molecular weight": 214.22,
             "eq": 1.0,
-            "solvent volume": 1.56
+            "solvent volume": 1.56,
+            "syringe": 1
         },
         {
             "name": "NaOMe",
@@ -18,7 +19,8 @@
             "inChi Key": "WQDUMFSSJAZKTM-UHFFFAOYSA-N",
             "molecular weight": 54.05,
             "eq": 5.0,
-            "solvent volume": 1.56
+            "solvent volume": 1.56,
+            "syringe": 2
         }
         {
             "name": "TBSCl",
@@ -26,7 +28,8 @@
             "inChi Key": "BCNZYOJHNLTNEZ-UHFFFAOYSA-N",
             "molecular weight": 150.72,
             "eq": 3.4,
-            "solvent volume": 1.56
+            "solvent volume": 1.56,
+            "syringe": 3
         }
         {
             "name": "DMAP",
@@ -34,9 +37,8 @@
             "inChi Key": "VHYFNPMBLIVWCW-UHFFFAOYSA-N",
             "molecular weight": 122.17,
             "eq": 0.4,
-            "solvent volume": 1.56
-            
-        
+            "solvent volume": 1.56,
+            "syringe": 3
     ],
     "liquid reagents": [
         {
@@ -45,7 +47,8 @@
             "inChi Key": "OKKJLVBELUTLKV-UHFFFAOYSA-N",
             "molecular weight": 32.04,
             "eq": 2.0,
-            "density": 0.791
+            "density": 0.791,
+            "syringe": 2
         },
         {
             "name": "Et3N",
@@ -53,7 +56,8 @@
             "inChi Key": "ZMANZCXQSJIPKH-UHFFFAOYSA-N",
             "molecular weight": 101.19,
             "eq": 3.4,
-            "density": 0.726
+            "density": 0.726,
+            "syringe": 3
         },
         {
             "name": "NaHMDS",
@@ -61,7 +65,8 @@
             "inChi Key": "ADSFASDFASDFASDFA-ADSFASDFAS-A",
             "molecular weight": 183.37,
             "eq": 2.0,
-            "density": 0.183
+            "density": 0.183,
+            "syringe": 4
         }
         {
             "name": "BnBr"
@@ -69,7 +74,15 @@
             "inChi Key": "AGEZXYOZHKGVCM-UHFFFAOYSA-N"
             "molecular weight": 171.04
             "eq": 5.0
-            "density": 1.44
+            "density": 1.44,
+            "syringe": 5
         }
+    ],
+    "syringe_volume": [
+        1: 1.56,
+        2: 1.56,
+        3: 3.2,
+        4: 6.4,
+        5: 12.8
     ]
 }
