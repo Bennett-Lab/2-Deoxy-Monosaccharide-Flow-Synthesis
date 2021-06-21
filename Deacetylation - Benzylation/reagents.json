@@ -1,8 +1,8 @@
 {
     "mass scale": 1,
-    "concentration": 0.6
+    "concentration": 0.6,
     "solvent": "DMF",
-    "limiting_reagent": "Diacetyl Rhamnal",
+    "limiting reagent": "Diacetyl Rhamnal",
     "solid reagents": [
         {
             "name": "Diacetyl Rhamnal",
@@ -10,7 +10,7 @@
             "inChi Key": "NDEGMKQAZZBNBB-OUBRSPPYSA-N",
             "molecular weight": 214.22,
             "eq": 1.0,
-            "solvent volume": 1.56,
+            "solvent eq": 1.56,
             "syringe": 1
         },
         {
@@ -19,26 +19,27 @@
             "inChi Key": "WQDUMFSSJAZKTM-UHFFFAOYSA-N",
             "molecular weight": 54.05,
             "eq": 5.0,
-            "solvent volume": 1.56,
+            "solvent eq": 1.56,
             "syringe": 2
-        }
+        },
         {
             "name": "TBSCl",
             "inChi": "InChI=1S/C6H15ClSi/c1-6(2,3)8(4,5)7/h1-5H3",
             "inChi Key": "BCNZYOJHNLTNEZ-UHFFFAOYSA-N",
             "molecular weight": 150.72,
             "eq": 3.4,
-            "solvent volume": 1.56,
+            "solvent eq": 1.56,
             "syringe": 3
-        }
+        },
         {
             "name": "DMAP",
             "inChi": "InChI=1S/C7H10N2/c1-9(2)7-3-5-8-6-4-7/h3-6H,1-2H3",
             "inChi Key": "VHYFNPMBLIVWCW-UHFFFAOYSA-N",
             "molecular weight": 122.17,
             "eq": 0.4,
-            "solvent volume": 1.56,
+            "solvent eq": 1.56,
             "syringe": 3
+        }
     ],
     "liquid reagents": [
         {
@@ -67,22 +68,16 @@
             "eq": 2.0,
             "density": 0.183,
             "syringe": 4
-        }
+        },
         {
-            "name": "BnBr"
-            "inChi": "InChI=1S/C7H7Br/c8-6-7-4-2-1-3-5-7/h1-5H,6H2"
-            "inChi Key": "AGEZXYOZHKGVCM-UHFFFAOYSA-N"
-            "molecular weight": 171.04
-            "eq": 5.0
+            "name": "BnBr",
+            "inChi": "InChI=1S/C7H7Br/c8-6-7-4-2-1-3-5-7/h1-5H,6H2",
+            "inChi Key": "AGEZXYOZHKGVCM-UHFFFAOYSA-N",
+            "molecular weight": 171.04,
+            "eq": 5.0,
             "density": 1.44,
             "syringe": 5
         }
     ],
-    "syringe_volume": [
-        1: 1.56,
-        2: 1.56,
-        3: 3.2,
-        4: 6.4,
-        5: 12.8
-    ]
+    "solvent volume": [1.56, 1.56, 3.2, 6.4, 12.8]
 }
