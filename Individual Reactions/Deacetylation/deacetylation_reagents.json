@@ -1,8 +1,8 @@
 {
     "mass scale": 1,
-    "concentration": 0.6
+    "concentration": 0.6,
     "solvent": "DMF",
-    "limiting_reagent": "Diacetyl Rhamnal",
+    "limiting reagent": "Diacetyl Rhamnal",
     "solid reagents": [
         {
             "name": "Diacetyl Rhamnal",
@@ -10,7 +10,8 @@
             "inChi Key": "NDEGMKQAZZBNBB-OUBRSPPYSA-N",
             "molecular weight": 214.22,
             "eq": 1.0,
-            "solvent volume": 1.56
+            "solvent eq": 1.56,
+            "syringe": 1
         },
         {
             "name": "NaOMe",
@@ -18,7 +19,9 @@
             "inChi Key": "WQDUMFSSJAZKTM-UHFFFAOYSA-N",
             "molecular weight": 54.05,
             "eq": 5.0,
-            "solvent volume": 1.56
+            "solvent eq": 1.56,
+            "syringe": 2
+        }
     ],
     "liquid reagents": [
         {
@@ -27,7 +30,10 @@
             "inChi Key": "OKKJLVBELUTLKV-UHFFFAOYSA-N",
             "molecular weight": 32.04,
             "eq": 2.0,
-            "density": 0.791
+            "density": 0.791,
+            "syringe": 2
         }
-    ]
+
+    ],
+    "solvent volume": [1.56, 1.56]
 }
