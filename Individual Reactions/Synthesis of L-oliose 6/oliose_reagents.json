@@ -1,0 +1,37 @@
+{
+    "mass scale": 1.2,
+    "concentration": 0.6,
+    "solvent": "THF",
+    "limiting reagent": "TBS protected OBn Fucal",
+    "solid reagents": [
+        {
+            "name": "OBn Fucal",
+            "inChi": "InChI=1S/C19H30O3Si/c1-15-18(21-14-16-10-8-7-9-11-16)17(12-13-20-15)22-23(5,6)19(2,3)4/h7-13,15,17-18H,14H2,1-6H3/t15-,17?,18?/m0/s1",
+            "inChi Key": "IKNLWHGBJJTBBF-ZLPCBKJTSA-N",
+            "molecular weight": 334.53,
+            "eq": 1.0,
+            "syringe": 1
+        },
+        {
+            "name": "Triphenylphosphine HBr",
+            "inChi": "InChI=1S/C18H15P.BrH/c1-4-10-16(11-5-1)19(17-12-6-2-7-13-17)18-14-8-3-9-15-18;/h1-15H;1H",
+            "inChi Key": "CMSYDJVRTHCWFP-UHFFFAOYSA-N",
+            "molecular weight": 340.20,
+            "eq": 0.8,
+            "syringe": 2
+        }
+    ],
+    "liquid reagents": [
+        {
+            "name": "H2O",
+            "inChi": "InChI=1S/H2O/h1H2",
+            "inChi Key": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+            "molecular weight": 18.02,
+            "solvent eq": 1.5,
+            "density": 1.0, 
+            "eq": 50.0,
+            "syringe": 3
+        }
+    ], 
+    "solvent volume": [6.0, 6.0, 8.8]
+}

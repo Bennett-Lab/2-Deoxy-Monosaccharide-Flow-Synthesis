@@ -1,0 +1,27 @@
+{
+    "mass scale": 0.5,
+    "concentration": 0.6,
+    "solvent": "MeOH",
+    "limiting reagent": "STol substituted sugar",
+    "solid reagents": [
+        {
+            "name": "STol sugar",
+            "inChi": "InChI=1S/C20H22O3S/c1-14-8-10-17(11-9-14)24-19-12-18(21)20(15(2)23-19)22-13-16-6-4-3-5-7-16/h3-11,15,19-20H,12-13H2,1-2H3/t15-,19?,20?/m0/s1",
+            "inChi Key": "NLWUHIHUCGSKLH-VMEOHVCESA-N",
+            "molecular weight": 342.45,
+            "eq": 1.0,
+            "syringe": 1
+        },
+        {
+            "name": "Sodium Borohydride",
+            "inChi": "InChI=1S/BH4.Na/h1H4;/q-1;+1",
+            "inChi Key": "YOQDYZUWIQVZSF-UHFFFAOYSA-N",
+            "molecular weight": 37.83,
+            "eq": 2.0,
+            "syringe": 2
+        }   
+    ],
+    "liquid reagents": [
+    ], 
+    "solvent volume": [2.4, 2.4]
+}
