@@ -66,5 +66,5 @@
             "syringe": 4
         }
     ],
-    "solvent volume": [6.9, 10.4, 26.7, 55.2]
+    "solvent volume": [6.9, "6.9 mL neat", 10.4, 26.7, 55.2]
 }
