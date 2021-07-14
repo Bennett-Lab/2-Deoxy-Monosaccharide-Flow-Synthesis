@@ -1,0 +1,70 @@
+{
+    "mass scale": 0.6,
+    "concentration": 0.32,
+    "solvent": "DMF",
+    "limiting reagent": "Naphthylated Rhamnal",
+    "solid reagents": [
+        {
+            "name": "Naphthylated Rhamnal",
+            "inChi": "InChI=1S/C6H9O4P.Na/c1-4-6(11(8)9)5(7)2-3-10-4;/h2-7H,1H3;/q;-1/p+1/t4-,5-,6?;/m0./s1",
+            "inChi Key": "SVCWAMKSAIOGMB-GMOHXZSCSA-O",
+            "molecular weight": 200.11,
+            "eq": 1.0,
+            "syringe": 1
+        },
+        {
+            "name": "CsCO3",
+            "inChi": "InChI=1S/CH2O3.2Cs/c2-1(3)4;;/h(H2,2,3,4);;/q;2*+1/p-2",
+            "inChi Key": "FJDQFPXHSGXQBY-UHFFFAOYSA-L",
+            "molecular weight": 325.82,
+            "eq": 1.1,
+            "syringe": 3
+        },
+        {
+            "name": "NH4OAc",
+            "inChi": "InChI=1S/C2H4O2.H3N/c1-2(3)4;/h1H3,(H,3,4);1H3",
+            "inChi Key": "USFZMSVCRYTOJT-UHFFFAOYSA-N",
+            "molecular weight": 77.08,
+            "eq": 10.0,
+            "syringe": 5
+        },
+        {
+            "name": "NaBH3CN",
+            "inChi": "InChI=1S/CH3BN.Na/c2-1-3;/h2H3;/q-1;+1",
+            "inChi Key": "CVDUGUOQTVTBJH-UHFFFAOYSA-N",
+            "molecular weight": 62.84,
+            "eq": 10.0,
+            "syringe": 5
+        }
+    ],
+    "liquid reagents": [
+        {
+            "name": "DMP",
+            "inChi": "InChI=1S/C13H13IO8/c1-8(15)19-14(20-9(2)16,21-10(3)17)12-7-5-4-6-11(12)13(18)22-14/h4-7H,1-3H3",
+            "inChi Key": "NKLCNNUWBJBICK-UHFFFAOYSA-N",
+            "molecular weight": 424.14,
+            "eq": 1.1,
+            "density": 1.19,
+            "syringe": 2
+        },
+        {
+            "name": "Et3N",
+            "inChi": "InChI=1S/C6H15N/c1-4-7(5-2)6-3/h4-6H2,1-3H3",
+            "inChi Key": "ZMANZCXQSJIPKH-UHFFFAOYSA-N",
+            "molecular weight": 101.19,
+            "eq": 1.1,
+            "density": 0.726,
+            "syringe": 3
+        },
+        {
+            "name": "Thiophenol",
+            "inChi": "InChI=1S/C6H6S/c7-6-4-2-1-3-5-6/h1-5,7H",
+            "inChi Key": "RMVRSNDYEFQCLF-UHFFFAOYSA-N",
+            "molecular weight": 110.19,
+            "eq": 4.0,
+            "density": 1.08,
+            "syringe": 4
+        }
+    ],
+    "solvent volume": [6.9, 10.4, 26.7, 55.2]
+}
