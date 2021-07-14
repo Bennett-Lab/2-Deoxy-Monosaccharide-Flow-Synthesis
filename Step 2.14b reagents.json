@@ -1,0 +1,70 @@
+{
+    "mass scale": 0.6,
+    "concentration": 0.32,
+    "solvent": "DMF",
+    "limiting reagent": "Naphthylated Rhamnal",
+    "solid reagents": [
+        {
+            "name": "Naphthylated Rhamnal",
+            "inChi": "Double check mass scale, concentration, and idk mol weight. Solvent THF, MeOH, or DMF?",
+            "inChi Key": "",
+            "molecular weight": -1,
+            "eq": 1.0,
+            "syringe": 1
+        },
+        {
+            "name": "CsCO3",
+            "inChi": "Double check this because I think it should be Cs2CO3",
+            "inChi Key": "",
+            "molecular weight": 325.82,
+            "eq": 1.1,
+            "syringe": 3
+        },
+        {
+            "name": "NH4OAc",
+            "inChi": "",
+            "inChi Key": "",
+            "molecular weight": 77.0825,
+            "eq": 10,
+            "syringe": 5
+        },
+        {
+            "name": "NaBH3CN",
+            "inChi": "",
+            "inChi Key": "",
+            "molecular weight": 62.84,
+            "eq": 10,
+            "syringe": 5
+        }
+    ],
+    "liquid reagents": [
+        {
+            "name": "DMP",
+            "inChi": "",
+            "inChi Key": "",
+            "molecular weight": 424.14,
+            "eq": 1.1,
+            "density": 1.19,
+            "syringe": 2
+        },
+        {
+            "name": "Et3N",
+            "inChi": "InChI=1S/C6H15N/c1-4-7(5-2)6-3/h4-6H2,1-3H3",
+            "inChi Key": "ZMANZCXQSJIPKH-UHFFFAOYSA-N",
+            "molecular weight": 101.19,
+            "eq": 1.1,
+            "density": 0.726,
+            "syringe": 3
+        },
+        {
+            "name": "Thiophenol",
+            "inChi": "",
+            "inChi Key": "",
+            "molecular weight": 110.19,
+            "eq": 4.0,
+            "density": 1.08,
+            "syringe": 4
+        }
+    ],
+    "solvent volume": [6.9, 10.4, 26.7, 55.2]
+}
