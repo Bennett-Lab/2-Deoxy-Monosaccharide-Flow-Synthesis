@@ -25,7 +25,7 @@
             "inChi": "",
             "inChi Key": "",
             "molecular weight": 45.08,
-            "eq": 10,
+            "eq": 10.0,
             "syringe": 5
         },
         {
@@ -33,7 +33,7 @@
             "inChi": "",
             "inChi Key": "",
             "molecular weight": 62.84,
-            "eq": 10,
+            "eq": 10.0,
             "syringe": 5
         }
     ],
