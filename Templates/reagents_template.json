@@ -1,7 +1,7 @@
 {
     "mass scale": mass of limiting reagent in grams,
-    "concentration": 0.6,
-    "solvent": "DMF",
+    "concentration": concentration of limiting reagent,
+    "solvent": "list all solvents used",
     "limiting reagent": "name of limiting reagent",
     "solid reagents": [
         {
@@ -9,39 +9,36 @@
             "inChi": "InChi string",
             "inChi Key": "InChi key",
             "molecular weight": molecular weight,
-            "eq": equivalence,
-            "solvent eq": 1.56,
+            "eq": equivalents,
             "syringe": syringe number
         },
         {
-            "name": "NaOMe",
-            "inChi": "InChI=1S/CH3O.Na/c1-2;/h1H3;/q-1;+1",
-            "inChi Key": "WQDUMFSSJAZKTM-UHFFFAOYSA-N",
-            "molecular weight": 54.05,
-            "eq": 5.0,
-            "solvent eq": 1.56,
-            "syringe": 2
+            "name": "reagent name",
+            "inChi": "InChi string",
+            "inChi Key": "InChi key",
+            "molecular weight": molecular weight,
+            "eq": equivalents,
+            "syringe": syringe number
         }
     ],
     "liquid reagents": [
         {
-            "name": "MeOH",
-            "inChi": "InChI=1S/CH4O/c1-2/h2H,1H3",
-            "inChi Key": "OKKJLVBELUTLKV-UHFFFAOYSA-N",
-            "molecular weight": 32.04,
-            "eq": 2.0,
-            "density": 0.791,
-            "syringe": 2
+            "name": "reagent name",
+            "inChi": "InChi string",
+            "inChi Key": "InChi key",
+            "molecular weight": molecular weight,
+            "eq": equivalents,
+            "density": density,
+            "syringe": syringe number
         },
         {
-            "name": "Et3N",
-            "inChi": "InChI=1S/C6H15N/c1-4-7(5-2)6-3/h4-6H2,1-3H3",
-            "inChi Key": "ZMANZCXQSJIPKH-UHFFFAOYSA-N",
-            "molecular weight": 101.19,
-            "eq": 3.4,
-            "density": 0.726,
-            "syringe": 3
+            "name": "reagent name",
+            "inChi": "InChi string",
+            "inChi Key": "InChi key",
+            "molecular weight": molecular weight,
+            "eq": equivalents,
+            "syringe": syringe number
         }
     ],
-    "solvent volume": [7.8, 7.5, 15.6]
+    "solvent volume": [syringe 1, syringe 2]
 }
