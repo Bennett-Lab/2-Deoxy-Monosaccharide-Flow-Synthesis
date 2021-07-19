@@ -5,9 +5,9 @@ Automation of Benzylated Rhamnal using Mechwolf
 ## Table of Contents
 
 1. [Getting Started](#getting-started)
-1.1. [Automated Setup Script](#automatic)
-1.2. [Manual Setup for Windows](#manual-for-windows)
-1.3. [Manual Setup for MacOS](#manual-for-macos)
+    1. [Automated Setup Script](#automatic)
+    2. [Manual Setup for Windows](#manual-for-windows)
+    3. [Manual Setup for MacOS](#manual-for-macos)
 2. [JSON Files](#json-files)
 
 ### Getting Started
