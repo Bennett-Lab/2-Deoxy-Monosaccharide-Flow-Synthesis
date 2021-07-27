@@ -1,6 +1,6 @@
 {
     "mass scale": 1.0,
-    "concentration": 0.6,
+    "concentration": 0.32,
     "solvent": "DMF",
     "limiting reagent": "Benzylated Fucal",
     "solid reagents": [
@@ -58,5 +58,5 @@
             "syringe": 3
         }        
     ], 
-    "solvent volume": [8.0, "14.1 mL neat", 27.5, 56.4, 112.8]
+    "solvent volume": [14.1, "14.1 mL neat", 27.5, 56.4, 112.8]
 }
