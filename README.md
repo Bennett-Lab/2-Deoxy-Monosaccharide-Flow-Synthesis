@@ -18,6 +18,8 @@ NOTE: this script only works for MacOS for the time being. *In the future, we pl
 
 Run `./setup` in order to install all binaries needed and python libraries. This script also generates a bash alias that allows you to automatically open up jupyter notebook if your terminal interpreter is bash.
 
+If the entire script runs successfully, whenever you start up your terminal, you just need to run `wolf` in order to open up jupyter notebook to the correct location. If you get an error, you may need to run `source ~/.bashrc` before `wolf` each time you open the terminal
+
 #### Manual for Windows
 
 1. Download Python 3

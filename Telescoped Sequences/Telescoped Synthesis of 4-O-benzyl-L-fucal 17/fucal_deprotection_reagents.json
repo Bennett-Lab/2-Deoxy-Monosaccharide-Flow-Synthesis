@@ -58,17 +58,17 @@
         },
         {
             "name": "NaHMDS",
-            "inChi": "TODO",
-            "inChi Key": "TODO",
+            "inChi": "InChI=1S/C7H7Br/c8-6-7-4-2-1-3-5-7/h1-5H,6H2",
+            "inChi Key": "AGEZXYOZHKGVCM-UHFFFAOYSA-N",
             "molecular weight": 183.37,
-            "eq": 2.0,
-            "density": 0.9,
+            "eq": 1.0,
+            "density": 1.44,
             "syringe": 4
         },
         {
             "name": "BnBr",
-            "inChi": "TODO",
-            "inChi Key": "TODO",
+            "inChi": "InChI=1S/C7H7Br/c8-6-7-4-2-1-3-5-7/h1-5H,6H2",
+            "inChi Key": "AGEZXYOZHKGVCM-UHFFFAOYSA-N",
             "molecular weight": 171.04,
             "eq": 5.0,
             "density": 1.44,
@@ -76,14 +76,14 @@
         },
         {
             "name": "TBAF",
-            "inChi": "TODO",
-            "inChi Key": "TODO",
+            "inChi": "InChI=1S/C16H36N.FH/c1-5-9-13-17(14-10-6-2,15-11-7-3)16-12-8-4;/h5-16H2,1-4H3;1H/q+1;/p-1",
+            "inChi Key": "FPGGTKZVZWFYPV-UHFFFAOYSA-M",
             "molecular weight": 261.46,
             "eq": 5.0,
             "density": 0.887,
             "syringe": 6
         }
     ],
-    "solvent volume": [7.8, 7.4, 13.4, 59.4, 101.4]
+    "solvent volume": [7.8, 7.4, 13.4, "31.1 mL neat", 59.4, 101.4]
 }
 

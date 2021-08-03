@@ -1,7 +1,7 @@
 {
     "mass scale": 0.6,
     "concentration": 0.32,
-    "solvent": "DMF",
+    "solvent": "THF, MeOH",
     "limiting reagent": "Naphthylated Rhamnal",
     "solid reagents": [
         {
@@ -66,5 +66,5 @@
             "syringe": 4
         }
     ],
-    "solvent volume": [6.9, "14.1 mL neat", 10.4, 26.7, 55.2]
+    "solvent volume": [6.9, "6.9 mL neat", 10.4, 26.7, 55.2]
 }
